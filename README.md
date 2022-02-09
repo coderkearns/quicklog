@@ -3,6 +3,19 @@
 
 A quick-and-dirty logger for python that's extensible by design.
 
+## Installation
+
+### Pip (recommended)
+
+```bash
+$ pip install coderkearns_quicklog
+```
+
+### Git
+
+```bash
+$ git clone https://github.com/coderkearns/quicklog.git
+```
 
 ## API Reference
 

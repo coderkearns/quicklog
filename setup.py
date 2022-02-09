@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name="quicklog",
-    packages=["quicklog"],
+    name="coderkearns_quicklog",
+    packages=["coderkearns_quicklog"],
     version="1.1.0",
     license="MIT",
     description="A quick-and-dirty python logger that's extensible by design.",
