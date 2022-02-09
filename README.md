@@ -15,6 +15,8 @@ $ pip install coderkearns_quicklog
 
 ```bash
 $ git clone https://github.com/coderkearns/quicklog.git
+$ mv quicklog/coderkearns_quicklog .
+$ rm -rf quicklog
 ```
 
 ## API Reference
