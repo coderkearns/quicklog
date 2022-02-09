@@ -1,7 +1,7 @@
 
 # Quicklog
 
-A fast-and-dirty logger for python that's extensible by design.
+A quick-and-dirty logger for python that's extensible by design.
 
 
 ## API Reference
