@@ -9,7 +9,7 @@ setup(
     author="coderkearns",
     author_email="coder.kearns@gmail.com",
     url="https://github.com/coderkearns/quicklog",
-    download_url="https://github.com/coderkearns/quicklog/archive/1.1.0.tar.gz",
+    download_url="https://github.com/coderkearns/quicklog/archive/refs/tags/v_1.1.tar.gz",
     keywords=["logging", "log", "quicklog"],
     install_requires=[],
     classifiers=[
