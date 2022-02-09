@@ -11,6 +11,8 @@ class BaseLogger(object):
     REVERSE_LEVELS = dict((v, k) for k, v in LEVELS.items())
 
     def __init__(self, level=1):
+        if type(level) == str:
+            level = self.get_level(level)
         self.level = level
 
     def log(self, level, *args):
@@ -39,6 +41,8 @@ class BaseLogger(object):
         self._log(self.LEVELS["FATAL"], *args)
 
     def set_level(self, level):
+        if type(level) == str:
+            level = self.get_level(level)
         self.level = level
 
     @classmethod

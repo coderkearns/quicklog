@@ -42,7 +42,7 @@ logger = BaseLogger(level)
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `level`   | `int` | **Optional**, default `1`. The level to show. |
+| `level`   | `int|string` | **Optional**, default `1`. The level to show. Can be the level's number or the level's name. |
 
 #### `set_level(level)`
 
@@ -138,7 +138,7 @@ In [`file.py`](file.py). Stores it's logs in a file.
 Creates a new FileLogger for the given path.
 
 ```python
-file_logger = FileLogger("./filelogs.log", FileLogger.get_level("ERROR"))
+file_logger = FileLogger("./filelogs.log", "ERROR")
 ```
 
 | Parameter | Type     | Description                |
