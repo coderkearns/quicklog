@@ -25,7 +25,21 @@ $ rm -rf quicklog
 
 In [`base.py`](base.py). Extensible but unusable on its own. All other loggers should extend this class and implement a `log(level, *args)` method.
 
-#### `BaseLogger.get_level(level_name)`
+#### `BaseLogger.LEVELS`
+
+A dict of all the log levels.
+
+| Number | Name |
+| :----- | :--- |
+| `0` | `"DEBUG" ` |
+| `1` | `"INFO"` |
+| `2` | `"WARNING"` |
+| `3` | `"ERROR"` |
+| `4` | `"CRITICAL"` |
+| `5` | `"FATAL"` |
+
+
+####`BaseLogger.get_level(level_name)`
 
 Gets a level number from the given name.
 
