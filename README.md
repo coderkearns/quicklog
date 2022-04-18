@@ -39,7 +39,7 @@ A dict of all the log levels.
 | `5` | `"FATAL"` |
 
 
-####`BaseLogger.get_level(level_name)`
+#### `BaseLogger.get_level(level_name)`
 
 Gets a level number from the given name.
 
