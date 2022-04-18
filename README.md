@@ -57,7 +57,7 @@ logger = BaseLogger(level)
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `level`   | `int|string` | **Optional**, default `1`. The level to show. Can be the level's number or the level's name. |
+| `level`   | `int&#124;string` | **Optional**, default `1`. The level to show. Can be the level's number or the level's name. |
 
 #### `set_level(level)`
 
